@@ -9,15 +9,16 @@ public class classprob2 {
     }
 
     public static String checkAsc(int n){
-        int last = n%10;
-        n = n/10;
-        int seclast =n%10;
-        n = n/10;
-        int thirdlast = n%10;
-        
-        if(thirdlast<seclast && seclast<last){
-            return "YES";
+        int max = 9;
+        while(n>0){
+            if(n%10<=max){
+                max = n%10;
+            }
+            else{
+                return "No";
+            }
+            n = n/10;
         }
-        return "NO";
+        return "YES";
     }
 }
