@@ -27,33 +27,35 @@
 27 Read only odd indexed elements from an array in the reverse order?
 28 Find out an index of a specified element from a given array?
 29 Swap two given indexed elements from the array?
-
 30 Reverse the elements of given array?
 31 Reverse only first half of the elements of given array?
 32 Reverse only last half of the elements of given array?
 33 Reverse only even indexed of the elements of given array?
 34 Reverse only odd indexed of the elements of given array?
-
 35 Swap odd indexed elements with its immediate next even indexed elements of given array?
-
-
 36 Do right shift by one for elements of given array?
 37 Do right shift by two for elements of given array?
 38 Do right shift by three for elements of given array?
-
 39 Do left shift by one for elements of given array?
 40 Do left shift by two for elements of given array?
 41 Do left shift by three for elements of given array?
 
+
+
 42 Do right rotate by one for elements of given array?
 43 Do right rotate by two for elements of given array?
 44 De right rotate by three for elements of given array?
+
 45 Do left rotate by one for elements of given array?
 46 Do left rotate by two for elements of given array?
 47 Do left rotate by three for elements of given array?
+
 48 Rotate first half of elements by one?
+
 49 Rotate 2nd half of elements by one?
+
 50 Rotate first half of elements by one and 2nd half of the elements by one separately?
+
 51 Remove specified indexed element from the given array?
 52 Update specified indexed element with a new element from the given array?
 53 Remove all occurrences of specified element from the given array?
@@ -71,6 +73,5 @@
 65. Find out the elements which are not duplicates in the given array
 66 Find out elements which are having minimum one duplicate?
 67 Find out element frequency in the given array?
-68 Combine two arrays and develop a third array. Consider element by element while combining
 69 Combine two arrays and develop a third array. Consider element by element while combining and take forward direction from first array    and reverse direction from 2nd array
 70 Sorting int elements from an arrays? (use bubble sort)
