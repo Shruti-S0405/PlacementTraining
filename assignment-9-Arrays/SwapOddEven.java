@@ -9,8 +9,8 @@ public class SwapOddEven {
             a[i] = sc.nextInt();
         }
         System.out.println("Before Swapping: "+Arrays.toString(a));
-        for(int i=0; i<a.length; i++){
-            if(i%2!=0 && i!=a.length-1){
+        for(int i=0; i<a.length-1; i++){
+            if(i%2!=0){
                 int temp = a[i];
                 a[i] = a[i+1];
                 a[i+1] = temp;
