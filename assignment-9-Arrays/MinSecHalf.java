@@ -11,6 +11,6 @@ public class MinSecHalf {
         for(int i=a.length/2; i<a.length; i++){
             if(a[i]<min) min = a[i];
         }
-        System.out.println("Minimum in First-Half of the Array: "+ min);
+        System.out.println("Minimum in Second-Half of the Array: "+ min);
     }
 }
