@@ -1,5 +1,5 @@
 import java.util.*;
-public class S24{
+public class S26{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] a = new int[5];
@@ -7,9 +7,9 @@ public class S24{
         for(int i=0; i<a.length; i++){
             a[i] = sc.nextInt();
         }
-        System.out.println("Even indexed elements of the array");
+        System.out.println("Odd indexed elements of the array");
         for(int i=0; i<a.length; i++){
-            if(i%2==0){
+            if(i%2!=0){
                 System.out.print(a[i]+" ");
             }
         }
