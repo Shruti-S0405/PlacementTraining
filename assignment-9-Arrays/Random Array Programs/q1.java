@@ -10,21 +10,21 @@ public class q1 {
         }
         int min = min(a);
         int max = max(a);
-        int count = 0;
-        int[] res = new int[(max-min)-1];
-        int index = 0;
+        // int count = 0;
+        // int[] res = new int[(max-min)-1];
+        // int index = 0;
 
-        for(int i=min+1; i<max; i++){
-            res[index++] = i;
-        }
+        // for(int i=min+1; i<max; i++){
+        //     res[index++] = i;
+        // }
  
-        for(int i=0; i<a.length; i++){
-            for(int j=0; j<res.length; j++){
-                if(a[i]==res[j]) count++;
-            }
-        }
+        // for(int i=0; i<a.length; i++){
+        //     for(int j=0; j<res.length; j++){
+        //         if(a[i]==res[j]) count++;
+        //     }
+        // }
 
-        System.out.println(res.length - count);
+        // System.out.println(res.length - count);
         int count = 0;
         for(int i=min+1; i<max; i++){
             boolean flag = false;
